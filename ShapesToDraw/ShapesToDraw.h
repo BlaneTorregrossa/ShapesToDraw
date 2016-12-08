@@ -31,7 +31,7 @@ private:
 
 
 public:
-	
+	float ax = 0.00f, ay = 0.00f;
 
 protected:
 
@@ -44,13 +44,15 @@ private:
 
 
 public:
-
+	float ax = 3.50f, ay = 5.00f;
+	float bx = 1.50f, by = 5.00f;
+	float cx = 3.50f, cy = 4.00f;
+	float dx = 1.50f, dy = 4.00f;
 
 protected:
 
 };
 
-// 1 point
 class Circle : BaseShape // Class Circle inheriting from class BaseShape
 {
 private:
@@ -70,7 +72,8 @@ private:
 
 
 public:
-	
+	float ax = 2.00f, ay = -3.00f;
+	float bx = 6.00f, by = -3.00f;
 	
 
 protected:
@@ -84,6 +87,10 @@ private:
 
 
 public:
+	float ax = -2.00f, ay = 5.00f;
+	float bx = -3.00f, by = 2.00f;
+	float cx = -1.00f, cy = 2.00f;
+
 
 
 protected:
